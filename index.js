@@ -1,5 +1,7 @@
 $('#searchBtn').click(function(){
 
+            event.preventDefault();
+        
 var city = $("#citySearch").val();
 
 weatherURL = "https:/api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=4c49b7e3072570a9b1185bf403e88ab9";
