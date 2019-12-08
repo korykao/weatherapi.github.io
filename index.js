@@ -32,10 +32,6 @@ method: "GET"
         var cityWind = $("<p>").text("Wind speed: " + windspeed + " MPH");
         $("#basicInfo").append(cityWind);
         
-        var uvIndex = response.wind.speed;
-        var cityWind = $("<p>").text("Wind speed: " + windspeed + " MPH");
-        $("#basicInfo").append(cityWind);
-        
 var key = "4c49b7e3072570a9b1185bf403e88ab9";
 
 forecastURL = "https://api.openweathermap.org/data/2.5/forecast";
