@@ -1,0 +1,55 @@
+html,body {
+    height:100%;
+}
+
+.navbar-nav {
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.col-4 {
+    background-color: rgb(226, 226, 226);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+#new {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: 1px lightgray solid;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    border-top: 1px lightgray solid;
+    width: 100%;
+    background-color: white;
+}
+
+#previousSearch {
+    padding-top: 10px;
+}
+
+#basicInfo {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 1px lightgray solid;
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+} 
+
+#forecast {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#searchBtn {
+    padding:0px 0px 0px 0px;
+    height: 30px;
+    width: 65px;
+}
