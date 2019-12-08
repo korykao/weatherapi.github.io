@@ -8,7 +8,8 @@ weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APP
 
 $.ajax({
 url: weatherURL,
-method: "GET"
+method: "GET",
+dataType: "json"
 }).then(function(response) {
         console.log(response);
 
@@ -41,6 +42,7 @@ forecastURL = "https://api.openweathermap.org/data/2.5/forecast";
 $.ajax({
 url: forecastURL,
     method: "GET",
+    dataType: "json",
     data: {
         q: city,
         appid: key,
