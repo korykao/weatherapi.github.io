@@ -8,6 +8,7 @@ html,body {
 }
 
 .col-4 {
+    display: inline-block;
     background-color: rgb(226, 226, 226);
     padding-left: 10px;
     padding-top: 10px;
